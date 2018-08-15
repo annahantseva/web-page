@@ -54,7 +54,7 @@ article::after {
 p {
     text-align: center;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px 0 15px 0;
 }
 
 .line1, .line2, .line3 {
@@ -84,7 +84,7 @@ button {
     border: #ff4e5c;
     color: #fff;
     border-radius: 20px;
-    padding: 10px 70px;
+    padding: 15px 70px;
     cursor: pointer;
     display: block;
     margin: 0 auto;
