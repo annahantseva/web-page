@@ -11,7 +11,7 @@ header {
     background: #4f2f60;
     color: #fff;
     text-align: center;
-    padding: 10px 10px 70px 10px;
+    padding: 50px 10px ;
 }
 
 h1 {
@@ -38,19 +38,35 @@ article::after {
     text-align: center;
 }
 
-div {
-    width: 350px;
-    height: 250px;
-    margin: 20px 30px 20px 20px;
-    padding: 20px 20px 10px 40px;
+.poster {
+    width: 31%;
+    padding: 10px;
     background: #f9f9f9;
     float: left;
     text-align: center;
     box-sizing: border-box;
 }
 
+.poster:nth-last-of-type(2) {
+    margin: 0 20px;
+}
+
+p {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.line1, .line2, .line3 {
+    width: 70%;
+}
+
 i {
     font-size: 28px;
+}
+
+.fa-arrow-right {
+    font-size: 12px;
 }
 
 a {
@@ -60,7 +76,7 @@ a {
 
 footer {
     background: #f1f1f1;
-    padding: 60px;
+    padding: 50px 0 0 0;
 }
 
 button {
@@ -70,21 +86,16 @@ button {
     border-radius: 20px;
     padding: 10px 70px;
     cursor: pointer;
+    display: block;
+    margin: 0 auto;
 }
 
-p {
-    text-align: center;
-}
-
-.footer1 {
-    width: 100%;
-    height: 80px;
-    margin: 0;
+.copyright {
+    height: 50px;
+    margin: 30px 0 0 0;
+    padding: 10px;
     background: #3b3b58;
     color: #fff;
+    position: relative;
 }
 
-button {
-    display:block;
-    margin:0 auto;
-}
