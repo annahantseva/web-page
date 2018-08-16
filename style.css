@@ -1,35 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Merriweather|Montserrat');
 
 body {
     font-family: 'Merriweather', serif;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 header {
     background: #4f2f60;
     color: #fff;
     text-align: center;
-    padding: 50px 10px ;
+    padding: 50px 10px;
 }
 
 h1 {
-    font: 700 60px/0.5 'Dancing Script', italic;
+    font: 700 60px 'Dancing Script', italic;
+    margin: 0;
 }
 
 h2 {
-    font: 700 60px/0.5 'Montserrat', sans-serif, bold;
+    font: 700 60px 'Montserrat', sans-serif, bold;
+    margin: 15px;
 }
 
 article {
     margin: 60px;
-}
-
-article::after {
-    content: "";
-    display: block;
-    clear: both;
 }
 
 .title {
@@ -38,16 +32,22 @@ article::after {
     text-align: center;
 }
 
+.posters-wrapper::after {
+    content: "";
+    display: block;
+    clear: both; 
+}
+
 .poster {
     width: 31%;
-    padding: 10px;
+    padding: 20px;
     background: #f9f9f9;
     float: left;
     text-align: center;
     box-sizing: border-box;
 }
 
-.poster:nth-last-of-type(2) {
+.poster:nth-of-type(2) {
     margin: 0 20px;
 }
 
@@ -57,7 +57,7 @@ p {
     padding: 10px 0 15px 0;
 }
 
-.line1, .line2, .line3 {
+.line {
     width: 70%;
 }
 
@@ -74,9 +74,9 @@ a {
     text-decoration: none;
 }
 
-footer {
+.main-footer {
     background: #f1f1f1;
-    padding: 50px 0 0 0;
+    padding: 30px;
 }
 
 button {
@@ -92,10 +92,8 @@ button {
 
 .copyright {
     height: 50px;
-    margin: 30px 0 0 0;
     padding: 10px;
     background: #3b3b58;
     color: #fff;
-    position: relative;
 }
 
